@@ -31,7 +31,8 @@ i{position: absolute; left: 0; top: 0.5rem;}
 .sec04{padding: 10rem 0; text-align: center;}
 .sec04 .sec_tag{margin-bottom: 4rem;}
 .sec_tag span{font-size: 4rem; color: #666; font-weight: 500;}
-.sec04 .sec_sub_tag{display: inline-block; margin-bottom: 2rem; padding: 2rem 3.2rem; font-size: 3.5rem; line-height: 140%; letter-spacing: -0.1rem; font-weight: 500; color: #333; background: #ecfadc; border-radius: 2.4rem;}
+.sec04 .sec_sub_tag{position: relative; display: inline-block; margin-bottom: 2rem; padding: 2rem 3.2rem; font-size: 3.5rem; line-height: 140%; letter-spacing: -0.1rem; font-weight: 500; color: #333; background: #ecfadc; border-radius: 2.4rem;}
+.sec04 .tool_tip_img{max-width: 2.8rem; width: 100%; position: absolute; top: -0.6rem; right: -0.6rem;}
 .sec04 p {font-size: 3.2rem; line-height: 140%; letter-spacing: -0.1rem; color: #666; font-weight: 500; margin-bottom: 6.4rem;}
 
 .slide_wrap{overflow: scroll; -ms-overflow-style:none; scrollbar-width: none;}
