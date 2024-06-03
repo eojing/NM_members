@@ -1,0 +1,73 @@
+.wrap{font-family: "Pretendard Variable" !important; overflow: hidden;}
+.top_bg{position: absolute; top: 0; left: 0; z-index: -1;}
+.bg_coin{max-width: 74rem; width: 100%;  position: absolute; top: 16.2rem; left: 50%; transform: translateX(-50%);}
+header{position: relative; width: 100%; height: 10.7rem; background: #fff; padding: 3.6rem 3rem;}
+.logo{max-width: 17.3rem; width: 100%;}
+.sec01{margin-top: 9rem;}
+.sec01 .logo_tag{display: flex; margin: 0 auto; margin-bottom: 2.6rem; padding: 1.55rem 3.2rem; max-width: 22.9rem; width: 100%; height: 6.2rem; border: 1px solid #002c2c; border-radius: 9.9rem;}
+.sec01 .logo{max-width: 3rem; width: 100%; height: 3.3rem; margin-right: 1.6rem;}
+.logo_text{color: #002c2c; font-size: 2.8rem; font-weight: bold; letter-spacing: -0.112rem; line-height: 110%;}
+.main_tit{font-size: 8.8rem; letter-spacing: -0.352rem; line-height: 110%; font-weight: 700; text-align: center; margin-bottom: 1rem;}
+.sub_tit{display: flex; justify-content: center; align-items: end; font-size: 5.6rem; line-height: 140%; font-weight: 700; letter-spacing: -0.224rem; text-align: center;}
+.sub_tit .text{ position: relative; margin-right: 0.8rem; height: 7.8rem;}
+.sub_tit .text::before{z-index: -1; background: #a0fa00; position: absolute; bottom: 0; left: 0; content: ''; display: block;  width: 100%;  height: 2.4rem;}
+.free{max-width: 10rem; width: 100%; height: 10rem; padding: 1.7rem 2.7rem 1.5rem 2.5rem; background: #a0fa00; border-top-left-radius: 9.9rem; border-top-right-radius: 9.9rem; border-bottom-right-radius: 9.9rem; border-bottom-left-radius: 0.2rem; font-size: 2.8rem; line-height: 120%; letter-spacing: -0.112rem;}
+.main_visaul{max-width: 66.7rem; width: 100%; margin: 5.9rem auto 0;}
+.sec02{padding: 12rem 4rem 10rem; text-align: center;}
+.sec_tag{font-size: 5rem; font-weight: 700; line-height: 140%; letter-spacing: -0.1rem; margin-bottom: 2rem;}
+.cont{padding: 4rem 2rem; display: flex;}
+.cont_img{max-width: 9.6rem; width: 100%; margin-right: 2.4rem;}
+.cont_text h2{font-size: 3.2rem; font-weight: 700; line-height: 120%; letter-spacing: -0.128rem; text-align: left; margin-bottom: 1.2rem; color: #333; margin-top: 0.6rem;}
+.cont_text h2 span{font-size: 2.8rem; font-weight: 500; line-height: 120%; letter-spacing: -0.14rem; text-align: left; margin-bottom: 1.2rem; color: #666;}
+.cont_text h3{font-size: 2.8rem; font-weight: 500; line-height: 140%; letter-spacing: -0.14rem; text-align: left;  color: #666;}
+.cont_text p{position: relative; font-size: 2.4rem; font-weight: 400; line-height: 120%; letter-spacing: -0.192rem; margin-top: 0.4rem; text-align: left; padding-left: 1.4rem; color: #999;}
+i{position: absolute; left: 0; top: 0.5rem;}
+.tag_wrap{display: flex;}
+.tag{ margin-left: 1.2rem; color: #429f40; background: #eef9ee; border-radius: 9.9rem; font-weight: 400; padding: 0.4rem 1.6rem; line-height: 140%; font-size: 2rem;}
+.sec03{text-align: center; padding: 10rem 4rem; background: #F8F9F4;}
+.sec04{padding: 10rem 0; text-align: center;}
+.sec04 .sec_tag{margin-bottom: 4rem;}
+.sec_tag span{font-size: 4rem; color: #666; font-weight: 500;}
+.sec04 .sec_sub_tag{display: inline-block; margin-bottom: 2rem; padding: 2rem 3.2rem; font-size: 3.5rem; line-height: 140%; letter-spacing: -0.1rem; font-weight: 500; color: #333; background: #ecfadc; border-radius: 2.4rem;}
+.sec04 p {font-size: 3.2rem; line-height: 140%; letter-spacing: -0.1rem; color: #666; font-weight: 500; margin-bottom: 6.4rem;}
+
+.slide_wrap{overflow: scroll; -ms-overflow-style:none; scrollbar-width: none;}
+.slide_wrap::-webkit-scrollbar{display: none;}
+.slide{display: flex; width: calc(46.4rem * 4);}
+.slide_item{width: 46.4rem; margin-right: 1.6rem;}
+.slide_item:first-child{margin-left: 4rem;}
+.slide_item:last-child{margin-right: 4rem;}
+.slide_img{margin-bottom: 1.6rem;}
+.slide_text{margin-bottom: 0; text-align: left; font-size: 2.4rem; font-weight: 500; line-height: 110%; letter-spacing: -0.1rem; color: #999;}
+.slide_text span{display: inline-block; margin-top: 0.8rem; font-size: 2.6rem; color: #666;}
+
+.sec05{padding: 10rem 11rem 11rem; text-align: center; background: #F8F9F4;}
+.sec05 .sec_tag{margin-bottom: 1.6rem;}
+.sec05 .sec_sub_tag{color: #666; font-size: 3.2rem; font-weight: 500; line-height: 140%; letter-spacing: -0.1rem; margin-bottom: 6.4rem;}
+.highlight{position: relative; z-index: 0; font-size: 3.5rem; font-weight: 700; color: #333;}
+.highlight::before{z-index: -1; background: #a0fa00; position: absolute; bottom: 0; left: 0; content: ''; display: block;  width: 100%;  height: 1.4rem;}
+.sec_sub_tag_last{font-size: 2.8rem; color: #999;}
+.card_img_wrap{display: flex; justify-content: space-between; margin-bottom: 6.4rem;} 
+.card_01{max-width: 24.8rem; width: 100%;}
+.card_02{max-width: 24.8rem; width: 100%;}
+.card_01 img, .card_02 img{filter: drop-shadow(10px 15px 12px rgba(0, 0, 0, 0.3));}
+.btn{display: block; font-weight: 500; line-height: 140%; font-size: 3.2rem; letter-spacing: -0.1rem; color: #666; padding: 2.6rem 7.405rem 2.4rem; background: #e7e8e3; border-radius: 2.4rem;}
+
+.notice{text-align: left; padding: 10rem 4rem; background: #303030;}
+.notice h4{color: #fff; font-size: 3.2rem; line-height: 4rem; letter-spacing: -0.128rem; font-weight: 700; margin-bottom: 4rem;}
+.notice p{font-size: 2.6rem; line-height: 3.8rem; letter-spacing: -0.104rem; color: #c5c5c5; margin-bottom: 0.6rem;}
+.notice .dot{position: relative; padding-left: 2rem; font-weight: 500; margin-top: 2rem;}
+.notice .dot::before{display: block; content: '';  position: absolute; background: #666; top: 1.8rem; left: 0.8rem; width: 0.3rem; height: 0.3rem; border-radius: 50%;}
+.notice .dash{position: relative; padding-left: 2rem; font-weight: 400; color: #999;}
+.notice .dash::before{display: block; content: '';  position: absolute; background: #999; top: 1.8rem; left: 0.5rem; width: 0.6rem; height: 0.2rem;}
+.notice .star{position: relative; padding-left: 3.5rem; font-weight: 400; color: #7d7d7d; font-size: 2.5rem; line-height: 2.8rem;}
+.notice .star::before{display: block; content: '*';  position: absolute;  top: 0.4rem; left: 1.6rem;}
+.notice div{margin-bottom: 8rem;}
+.notice .r{font-weight: 400;}
+.notice .m{font-weight: 500;}
+.notice .b{font-weight: 700;}
+.notice .light{font-weight: 300; line-height: 4rem; font-size: 3rem; letter-spacing: 0;}
+.notice .red{color: #ff2f2f;}
+.notice .red::before{background: #ff2f2f;}
+.notice div:last-child{margin-bottom: 0;}
+.notice div:last-child .dot{font-weight: 400;}
