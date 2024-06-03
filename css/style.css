@@ -16,6 +16,7 @@ header{position: relative; width: 100%; height: 10.7rem; background: #fff; paddi
 .sec02{padding: 12rem 4rem 10rem; text-align: center;}
 .sec_tag{font-size: 5rem; font-weight: 700; line-height: 140%; letter-spacing: -0.1rem; margin-bottom: 2rem;}
 .cont{padding: 4rem 2rem; display: flex; border-bottom: 0.1rem solid #ebebeb;}
+.cont:last-child{border-bottom: none;}
 .cont_img{max-width: 9.6rem; width: 100%; margin-right: 2.4rem;}
 .cont_text h2{font-size: 3.2rem; font-weight: 700; line-height: 120%; letter-spacing: -0.128rem; text-align: left; margin-bottom: 1.2rem; color: #333; margin-top: 0.6rem;}
 .cont_text h2 span{font-size: 2.8rem; font-weight: 500; line-height: 120%; letter-spacing: -0.14rem; text-align: left; margin-bottom: 1.2rem; color: #666;}
@@ -26,6 +27,7 @@ i{position: absolute; left: 0; top: 0.5rem;}
 .tag{ margin-left: 1.2rem; color: #429f40; background: #eef9ee; border-radius: 9.9rem; font-weight: 400; padding: 0.4rem 1.6rem; line-height: 140%; font-size: 2rem;}
 .sec03{text-align: center; padding: 10rem 4rem; background: #F8F9F4;}
 .sec03 .cont{border-bottom: 0.1rem solid #e4e5e1;}
+.sec03 .cont:last-child{border-bottom: none;}
 .sec04{padding: 10rem 0; text-align: center;}
 .sec04 .sec_tag{margin-bottom: 4rem;}
 .sec_tag span{font-size: 4rem; color: #666; font-weight: 500;}
