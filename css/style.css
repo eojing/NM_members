@@ -1,3 +1,4 @@
+@charset "utf-8";
 .wrap{font-family: "Pretendard Variable" !important; overflow: hidden;}
 .top_bg{position: absolute; top: 0; left: 0; z-index: -1; pointer-events: none;}
 .bg_coin{max-width: 74rem; width: 100%;  position: absolute; top: 16.2rem; left: 50%; transform: translateX(-50%); pointer-events: none;}
@@ -76,3 +77,4 @@ i{position: absolute; left: 0; top: 0.5rem;}
 .notice .red::before{background: #ff2f2f;}
 .notice div:last-child{margin-bottom: 0;}
 .notice div:last-child .dot{font-weight: 400;}
+
